@@ -114,159 +114,212 @@ class _ArticleDetailsState extends State<ArticleDetails> {
               ),
               Row(
                 children: [
-                  Expanded(
-                    flex:1,
-                    child:Container(
-                      child: Text(
-                        "16 Comments",
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontSize: 12.0,
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(30.0, 10.0, 30.0, 10.0),
+                    child: Expanded(
+                      flex:1,
+                      child:Container(
+                        child: Text(
+                          "16 Comments",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 12.0,
+                          ),
                         ),
-                      ),
-                    ),),
+                      ),),
+                  ),
 
                   SizedBox(height: 0.0,),
-                  Expanded(
-                    flex:2,
-                    child:Container(
-                      child: Text(
-                        "Comments",
-                        style: TextStyle(
-                          color: Colors.black,
-                          fontWeight: FontWeight.bold,
+                  Padding(
+                      padding: const EdgeInsets.fromLTRB(40.0, 10.0, 30.0, 10.0),
+                    child: Expanded(
+                      flex:2,
+                      child:Container(
+                        child: Text(
+                          "Comments",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
-                      ),
-                    ),),
+                      ),),
+                  ),
                   SizedBox(height: 30.0),
 
                 ],
               ),
               Row(
                   children: [
-                    CircleAvatar(
-                      backgroundImage: NetworkImage('https://th.bing.com/th/id/R.3000b3b378d15af1c8609a9e02b1a936?rik=RmT9xX901tloTg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdT8%2fp6R%2fdT8p6R9ac.png&ehk=ihjZt64cHBmiTWWCuQ%2bq9Eu4%2fOf7TmPKZGbeGn65mNY%3d&risl=&pid=ImgRaw&r=0'),
-                      radius: 10.0,
-                    ),
-                    Container(
-                      child: Text(
-                        "Adrian Smith",
-                        style: TextStyle(
-                          color: Colors.black,
-                          letterSpacing: 2.0,
-                          fontWeight: FontWeight.bold,
+                    Padding(
+                      padding: EdgeInsets.fromLTRB(50.0, 0, 10, 0),
+                      child:
+                      CircleAvatar(
+                        backgroundImage: NetworkImage('https://th.bing.com/th/id/R.3000b3b378d15af1c8609a9e02b1a936?rik=RmT9xX901tloTg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdT8%2fp6R%2fdT8p6R9ac.png&ehk=ihjZt64cHBmiTWWCuQ%2bq9Eu4%2fOf7TmPKZGbeGn65mNY%3d&risl=&pid=ImgRaw&r=0'),
+                        radius: 10.0,
+                      ),
+                      ),
+
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10, 0, 8, 0),
+                      child: Container(
+                        child: Text(
+                          "Adrian Smith",
+                          style: TextStyle(
+                            color: Colors.black,
+                            letterSpacing: 2.0,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
                     SizedBox(height: 0.0,),
                   ]),
-              Container(
-                child: Text(
-                  "Dec 10,2022",
-                  style: TextStyle(
-                    color: Colors.black,
-                    letterSpacing: 2.0,
-                    fontSize: 12.0,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(90, 0, 8, 0),
+                child: Container(
+                  child: Text(
+                    "Dec 10,2022",
+                    style: TextStyle(
+                      color: Colors.black,
+                      //letterSpacing: 2.0,
+                      fontSize: 12.0,
+                    ),
                   ),
                 ),
               ),
-              SizedBox(height: 10.0),
+              //SizedBox(height: 10.0),
 
-              Container(
-                child: Text(
-                  "I think Facebook or Meta should  reconsider its marketing strategy.",
-                  style: TextStyle(
-                    color: Colors.black,
-                    letterSpacing: 2.0,
-                    fontSize: 12.0,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(90, 10, 8, 10),
+                child: Container(
+                  child: Text(
+                    "I think Facebook or Meta should  reconsider its marketing strategy.",
+                    style: TextStyle(
+                      color: Colors.black,
+                      //letterSpacing: 2.0,
+                     // fontSize: 12.0,
+                    ),
                   ),
                 ),
               ),
               SizedBox(height: 30.0),
+
               Row(
                   children: [
-                    CircleAvatar(
-                      backgroundImage: NetworkImage('https://th.bing.com/th/id/R.3000b3b378d15af1c8609a9e02b1a936?rik=RmT9xX901tloTg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdT8%2fp6R%2fdT8p6R9ac.png&ehk=ihjZt64cHBmiTWWCuQ%2bq9Eu4%2fOf7TmPKZGbeGn65mNY%3d&risl=&pid=ImgRaw&r=0'),
-                      radius: 10.0,
+                    Padding(
+                      padding: EdgeInsets.fromLTRB(50.0, 0, 10, 0),
+                      child:
+                      CircleAvatar(
+                        backgroundImage: NetworkImage('https://th.bing.com/th/id/R.3000b3b378d15af1c8609a9e02b1a936?rik=RmT9xX901tloTg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdT8%2fp6R%2fdT8p6R9ac.png&ehk=ihjZt64cHBmiTWWCuQ%2bq9Eu4%2fOf7TmPKZGbeGn65mNY%3d&risl=&pid=ImgRaw&r=0'),
+                        radius: 10.0,
+                      ),
                     ),
-                    Container(
-                      child: Text(
-                        "Adrian Smith",
-                        style: TextStyle(
-                          color: Colors.black,
-                          letterSpacing: 2.0,
-                          fontWeight: FontWeight.bold,
+
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10, 0, 8, 0),
+                      child: Container(
+                        child: Text(
+                          "Adrian Smith",
+                          style: TextStyle(
+                            color: Colors.black,
+                            letterSpacing: 2.0,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
                     SizedBox(height: 0.0,),
                   ]),
-              Container(
-                child: Text(
-                  "Dec 10,2022",
-                  style: TextStyle(
-                    color: Colors.black,
-                    letterSpacing: 2.0,
-                    fontSize: 12.0,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(90, 0, 8, 0),
+                child: Container(
+                  child: Text(
+                    "Dec 10,2022",
+                    style: TextStyle(
+                      color: Colors.black,
+                      //letterSpacing: 2.0,
+                      fontSize: 12.0,
+                    ),
                   ),
                 ),
               ),
-              SizedBox(height: 10.0),
+              //SizedBox(height: 10.0),
 
-              Container(
-                child: Text(
-                  "I think Facebook or Meta should  reconsider its marketing strategy.",
-                  style: TextStyle(
-                    color: Colors.black,
-                    letterSpacing: 2.0,
-                    fontSize: 12.0,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(90, 10, 8, 10),
+                child: Container(
+                  child: Text(
+                    "I think Facebook or Meta should  reconsider its marketing strategy.",
+                    style: TextStyle(
+                      color: Colors.black,
+                      //letterSpacing: 2.0,
+                      // fontSize: 12.0,
+                    ),
                   ),
                 ),
               ),
               SizedBox(height: 30.0),
+
               Row(
                   children: [
-                    CircleAvatar(
-                      backgroundImage: NetworkImage('https://th.bing.com/th/id/R.3000b3b378d15af1c8609a9e02b1a936?rik=RmT9xX901tloTg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdT8%2fp6R%2fdT8p6R9ac.png&ehk=ihjZt64cHBmiTWWCuQ%2bq9Eu4%2fOf7TmPKZGbeGn65mNY%3d&risl=&pid=ImgRaw&r=0'),
-                      radius: 10.0,
+                    Padding(
+                      padding: EdgeInsets.fromLTRB(50.0, 0, 10, 0),
+                      child:
+                      CircleAvatar(
+                        backgroundImage: NetworkImage('https://th.bing.com/th/id/R.3000b3b378d15af1c8609a9e02b1a936?rik=RmT9xX901tloTg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdT8%2fp6R%2fdT8p6R9ac.png&ehk=ihjZt64cHBmiTWWCuQ%2bq9Eu4%2fOf7TmPKZGbeGn65mNY%3d&risl=&pid=ImgRaw&r=0'),
+                        radius: 10.0,
+                      ),
                     ),
-                    Container(
-                      child: Text(
-                        "Adrian Smith",
-                        style: TextStyle(
-                          color: Colors.black,
-                          letterSpacing: 2.0,
-                          fontWeight: FontWeight.bold,
+
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(10, 0, 8, 0),
+                      child: Container(
+                        child: Text(
+                          "Adrian Smith",
+                          style: TextStyle(
+                            color: Colors.black,
+                            letterSpacing: 2.0,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
                     SizedBox(height: 0.0,),
                   ]),
-              Container(
-                child: Text(
-                  "Dec 10,2022",
-                  style: TextStyle(
-                    color: Colors.black,
-                    letterSpacing: 2.0,
-                    fontSize: 12.0,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(90, 0, 8, 0),
+                child: Container(
+                  child: Text(
+                    "Dec 10,2022",
+                    style: TextStyle(
+                      color: Colors.black,
+                      //letterSpacing: 2.0,
+                      fontSize: 12.0,
+                    ),
                   ),
                 ),
               ),
-              SizedBox(height: 10.0),
+              //SizedBox(height: 10.0),
 
-              Container(
-                child: Text(
-                  "I think Facebook or Meta should  reconsider its marketing strategy.",
-                  style: TextStyle(
-                    color: Colors.black,
-                    letterSpacing: 2.0,
-                    fontSize: 12.0,
+              Padding(
+                padding: const EdgeInsets.fromLTRB(90, 10, 8, 10),
+                child: Container(
+                  child: Text(
+                    "I think Facebook or Meta should  reconsider its marketing strategy.",
+                    style: TextStyle(
+                      color: Colors.black,
+                      //letterSpacing: 2.0,
+                      // fontSize: 12.0,
+                    ),
                   ),
                 ),
               ),
               SizedBox(height: 30.0),
+
+
               Row(
                   children: [
+                    SizedBox(width: 20.0),
                     Expanded(
                       //adding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
                       child: TextField(
@@ -276,15 +329,26 @@ class _ArticleDetailsState extends State<ArticleDetails> {
                         ),
                       ),
                     ),
-                    ElevatedButton.icon(
-                        onPressed: (){
+                   // Padding(padding: padding)
+                     SizedBox(
+                       width:60,
+                       height:50,
+                       child: ElevatedButton.icon(
 
-                        },
-                        icon: Icon(Icons.send),
-                        label: Text('')
-                    )
+                          onPressed: (){},
+                            icon: Icon(Icons.send,
+                            size: 30.0,),
+                            label: Text(''),
+
+
+                        ),
+                     ),
+
+                    SizedBox(width: 20.0),
                   ]),
+              SizedBox(height: 5.0),
             ] ),
+        
 
       ),
 
